@@ -1,0 +1,24 @@
+{
+  "firmware": "zmk",
+  "zmk": {
+    "image": "docker.io/zmkfirmware/zmk-build-arm@sha256:0979a8de325e3d822e48bd8d1d9efaee2984ad3750253119f920a342f0ce5cde"
+  },
+  "builds": [
+    {
+      "id": "meteorite40",
+      "name": "meteorite40",
+      "group": "meteorite40",
+      "board": "seeeduino_xiao_ble",
+      "shield": "meteorite40",
+      "snippet": "studio-rpc-usb-uart"
+    },
+    {
+      "id": "meteorite40-low",
+      "name": "meteorite40 (low profile)",
+      "group": "meteorite40",
+      "board": "seeeduino_xiao_ble",
+      "shield": "meteorite40_low",
+      "snippet": "studio-rpc-usb-uart"
+    }
+  ]
+}
