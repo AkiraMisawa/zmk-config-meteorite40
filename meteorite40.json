@@ -1,0 +1,25 @@
+{
+  "id": "meteorite40",
+  "name": "meteorite40",
+  "firmware": "zmk",
+  "group": "meteorite40",
+  "board": "seeeduino_xiao_ble",
+  "shield": "meteorite40",
+  "file": "meteorite40.uf2",
+  "format": "uf2",
+  "role": "standalone",
+  "studio": true,
+  "uf2": {
+    "family": 2913282112,
+    "blocks": 907,
+    "start": 159744,
+    "end": 391936
+  },
+  "size": 232192,
+  "west": "meteorite40.west.yml",
+  "zmk_sha": "abb64ba316c29caddc49727ca2cac2f0ed5970c7",
+  "zephyr_sha": "dacab4875df72109b96cc8977547a0dc04875bcd",
+  "image": "docker.io/zmkfirmware/zmk-build-arm@sha256:0979a8de325e3d822e48bd8d1d9efaee2984ad3750253119f920a342f0ce5cde",
+  "snippet": "studio-rpc-usb-uart",
+  "view": "meteorite40.view.json"
+}
